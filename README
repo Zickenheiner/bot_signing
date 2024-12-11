@@ -4,12 +4,15 @@
 
 1. Clonez le répertoire sur votre machine locale :
 
+   ```bash
    git clone <repository-url>
    cd <repository-folder>
+   ```
 
 2. Installez les dépendances du projet :
-
+   ```bash
    npm install
+   ```
 
 ## Configuration
 
@@ -17,21 +20,25 @@
 
 2. Utilisez le fichier `.env.sample` comme modèle. Copiez le contenu de `.env.sample` dans `.env` et remplacez les valeurs par vos propres informations.
 
+   ```bash
    cp .env.sample .env
+   ```
 
 3. Mettez à jour le fichier `.env` avec vos paramètres personnels. Par exemple :
-
+   ```env
    EMAIL='YOUR EMAIL'
    PASSWORD='YOUR PASSWORD'
+   ```
 
 ## Instructions Spéciales pour la Signature
 
-1. Rendez-vous sur le site suivant : http://www.htmlcanvasstudio.com/painterpage.aspx
+1. Rendez-vous sur le site suivant : [http://www.htmlcanvasstudio.com/painterpage.aspx](http://www.htmlcanvasstudio.com/painterpage.aspx).
 
-2. Assurez-vous de bien écrire votre signature dans le quart supérieur gauche de la modal.
+2. Réduisez la taille du trait au minimum en utilisant le bouton situé tout à droite dans la barre de gestion au-dessus de la modal.
 
-3. Copiez le code généré par l’outil et collez-le à l’endroit indiqué dans le fichier `index.js`, dans la section :
+3. Assurez-vous de bien écrire votre signature dans le quart supérieur gauche de la modal.
 
+4. Copiez le code généré par l’outil et collez-le à l’endroit indiqué dans le fichier `index.js`, dans la section :
    ```javascript
    //Coller le code de la signature ici
    ```
@@ -39,8 +46,9 @@
 ## Lancer le Bot
 
 1. Démarrez le bot en exécutant la commande suivante :
-
+   ```bash
    npm start
+   ```
 
 Le bot devrait maintenant être en cours d'exécution et prêt à l'emploi !
 
