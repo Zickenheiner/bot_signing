@@ -1,0 +1,33 @@
+Project Setup and Usage Instructions
+
+Installation
+
+Clone the repository to your local machine:
+
+git clone <repository-url>
+cd <repository-folder>
+
+Install the project dependencies:
+
+npm install
+
+Configuration
+
+Create a .env file in the root directory of the project.
+
+Use the .env.sample file as a template. Copy the contents of .env.sample to .env and replace the placeholder values with your own configuration details.
+
+cp .env.sample .env
+
+Update the .env file with your specific values. For example:
+
+EMAIL='YOUR EMAIL'
+PASSWORD='YOUR PASSWORD'
+
+Running the Bot
+
+Start the bot by running the following command:
+
+npm start
+
+The bot should now be running and ready to use!
