@@ -1,33 +1,49 @@
-Project Setup and Usage Instructions
+# Instructions pour configurer et utiliser le projet
 
-Installation
+## Installation
 
-Clone the repository to your local machine:
+1. Clonez le répertoire sur votre machine locale :
 
-git clone <repository-url>
-cd <repository-folder>
+   git clone <repository-url>
+   cd <repository-folder>
 
-Install the project dependencies:
+2. Installez les dépendances du projet :
 
-npm install
+   npm install
 
-Configuration
+## Configuration
 
-Create a .env file in the root directory of the project.
+1. Créez un fichier `.env` à la racine du projet.
 
-Use the .env.sample file as a template. Copy the contents of .env.sample to .env and replace the placeholder values with your own configuration details.
+2. Utilisez le fichier `.env.sample` comme modèle. Copiez le contenu de `.env.sample` dans `.env` et remplacez les valeurs par vos propres informations.
 
-cp .env.sample .env
+   cp .env.sample .env
 
-Update the .env file with your specific values. For example:
+3. Mettez à jour le fichier `.env` avec vos paramètres personnels. Par exemple :
 
-EMAIL='YOUR EMAIL'
-PASSWORD='YOUR PASSWORD'
+   EMAIL='YOUR EMAIL'
+   PASSWORD='YOUR PASSWORD'
 
-Running the Bot
+## Instructions Spéciales pour la Signature
 
-Start the bot by running the following command:
+1. Rendez-vous sur le site suivant : http://www.htmlcanvasstudio.com/painterpage.aspx
 
-npm start
+2. Assurez-vous de bien écrire votre signature dans le quart supérieur gauche de la modal.
 
-The bot should now be running and ready to use!
+3. Copiez le code généré par l’outil et collez-le à l’endroit indiqué dans le fichier `index.js`, dans la section :
+
+   ```javascript
+   //Coller le code de la signature ici
+   ```
+
+## Lancer le Bot
+
+1. Démarrez le bot en exécutant la commande suivante :
+
+   npm start
+
+Le bot devrait maintenant être en cours d'exécution et prêt à l'emploi !
+
+---
+
+Si vous rencontrez des problèmes, veuillez contacter les responsables du projet.

@@ -334,7 +334,6 @@ import chalk from 'chalk';
 
       retry = false
     } catch (error) {
-      //console.log(chalk.red("La modal de signature n'est toujours pas apparue\n")); 
     }
   }
 
